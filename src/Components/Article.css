@@ -70,4 +70,10 @@
   border: 1px solid transparent;
   margin-top: 10px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+  .btn:active{
+  background-color: green;
+  color: white;
 }
