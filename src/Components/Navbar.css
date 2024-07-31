@@ -1,0 +1,35 @@
+.navbar {
+    position: sticky;
+    top: 0; 
+    background: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+    margin: 20px;
+    border: 2px solid  transparent;
+    border-radius: 15px;
+    z-index: 999;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+  .nav-link:hover{
+    transform: translateY(-5px);  
+  }
+
+  .nav-link {
+    margin: 0 20px;  
+    text-decoration: none;
+    color: #333;  
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid transparent;  
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: red; /* Change link color on hover */
+  }
+  
