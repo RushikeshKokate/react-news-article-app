@@ -25,6 +25,7 @@ const Feed = () => {
 
   const handleBookmark = (article) => {
     dispatch(addBookmark(article));
+    alert("Article is bookmarked")
   };
   
   return (
